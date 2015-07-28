@@ -16,13 +16,13 @@ $ ./testGenerator \<input file\>
 
 Formatting of the input file:
 
-\<keyword\>: <description>
+\<keyword\>: \<description\>
 ...
-\<keyword\>: <description>
+\<keyword\>: \<description\>
 \<empty line\>
-\<keyword number\>, <keyword number>, ... 
+\<keyword number\>, \<keyword number\>, ... 
 ...
-\<keyword number\>, <keyword number>, ... 
+\<keyword number\>, \<keyword number\>, ... 
 \<EOF\>
 
 The line numbers are separated by commas the keyword numbers on the same line 
@@ -31,7 +31,7 @@ Check the examples to see the format
 
 While running the test:
 
-\<question\> about some <keyword>?
+\<question\> about some \<keyword\>?
 A \<description\>
 B \<description\>
 C \<description\>
