@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir examples 2> /dev/null
+mkdir results 2> /dev/null
+example=$1
+if [ "$1" == "" ]; then
+   ls examples
+   echo "Enter examples you want to run"
+   read example
+fi
+./testGenerator examples/$example >> results/result_$example
