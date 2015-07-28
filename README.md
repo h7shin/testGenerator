@@ -3,8 +3,10 @@ provided in the input file
 
 To compile:
 
+```
 $ make clean
 $ make
+```
 
 To run examples, use the bash script:
 ```
