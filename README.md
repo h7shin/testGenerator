@@ -29,9 +29,11 @@ Formatting of the input file:
 <keyword number>, <keyword number>, ... 
 ```
 
-The line numbers are separated by commas the keyword numbers on the same line 
-group the keywords together. The keywords may be reused in different groups.
-Check the examples to see the format
+The keyword numbers are separated by commas. 
+Also, the keyword numbers on the same line group the keywords together. This means
+that each question will randomly pick keywords from the same group.
+The keywords may be reused in different groups.
+Check the examples to see the format.
 
 While running the test:
 
