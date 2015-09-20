@@ -30,9 +30,10 @@ Formatting of the input file:
 ```
 
 The keyword numbers are separated by commas. 
-Also, the keyword numbers on the same line group the keywords together. This means
-that each question will randomly pick keywords from the same group.
-The keywords may be reused in different groups.
+Also, the keyword numbers on the same line are grouped together. The generator
+picks maximum five keywords randomly from the same group/line for each question.
+Only one keyword among the ones chosen is the correct answer. 
+The keywords may be reused in multiple groups.
 Check the examples to see the format.
 
 While running the test:
@@ -46,7 +47,7 @@ D <description>
 E <description>
 ```
 
-User should enter one of a, b, c, d, e, q. Answer should be in lowercase.
+User should enter one of a, b, c, d, e, q. Answer choice should be in lowercase.
 q exists the test and does accounting.
 
 Files and Directories:
